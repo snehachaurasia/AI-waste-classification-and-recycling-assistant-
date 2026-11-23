@@ -1,0 +1,221 @@
+
+{
+  "battery": {
+    "name": "Battery Waste",
+    "description": "Batteries contain chemicals and metals that can harm the environment.",
+    "preparation": [
+      "Do not open or crush batteries.",
+      "Keep damaged batteries away from heat and water.",
+      "Cover exposed terminals with non-conductive tape when appropriate."
+    ],
+    "recycling_methods": [
+      "Take batteries to an authorized battery collection or recycling centre.",
+      "Use designated battery collection points."
+    ],
+    "disposal": "Never put batteries in ordinary household waste. Follow local hazardous waste collection rules.",
+    "reuse_ideas": [
+      "Rechargeable batteries can be reused with compatible devices when safe and functional."
+    ],
+    "environmental_impact": "Improper battery disposal can release harmful substances and contaminate soil and water.",
+    "precautions": [
+      "Never burn, puncture or dismantle batteries.",
+      "If a battery is swollen, leaking or hot, avoid handling it and seek specialist disposal advice."
+    ]
+  },
+  "biological": {
+    "name": "Biological Waste",
+    "description": "Biological waste includes food scraps, fruit peels and other biodegradable materials.",
+    "preparation": [
+      "Separate biodegradable waste from plastic, glass and metal.",
+      "Remove non-compostable packaging."
+    ],
+    "recycling_methods": [
+      "Compost suitable food and garden waste.",
+      "Use community composting or authorized organic waste processing."
+    ],
+    "disposal": "Place unsuitable organic waste in the designated biodegradable waste collection.",
+    "reuse_ideas": [
+      "Use suitable compost to improve garden soil.",
+      "Use clean vegetable scraps for appropriate composting."
+    ],
+    "environmental_impact": "Composting reduces landfill waste and can return nutrients to soil.",
+    "precautions": [
+      "Avoid adding plastic or chemicals to compost.",
+      "Follow local composting guidance for meat, dairy and oily food."
+    ]
+  },
+  "cardboard": {
+    "name": "Cardboard Waste",
+    "description": "Cardboard is a recyclable paper-based packaging material.",
+    "preparation": [
+      "Remove plastic tape and other non-paper materials where possible.",
+      "Keep cardboard clean and dry.",
+      "Flatten boxes to save space."
+    ],
+    "recycling_methods": [
+      "Send clean cardboard to a paper recycling facility.",
+      "Use designated dry-waste collection."
+    ],
+    "disposal": "Place clean and dry cardboard in the designated paper or dry-waste collection.",
+    "reuse_ideas": [
+      "Use boxes for storage.",
+      "Reuse cardboard for craft projects and packaging."
+    ],
+    "environmental_impact": "Recycling cardboard reduces demand for virgin paper materials.",
+    "precautions": [
+      "Do not mix heavily oil-soaked or food-contaminated cardboard with clean recyclables."
+    ]
+  },
+  "clothes": {
+    "name": "Clothing Waste",
+    "description": "Clothing waste includes unwanted garments and textile materials.",
+    "preparation": [
+      "Wash and dry wearable clothes before donation.",
+      "Separate reusable clothes from damaged textiles."
+    ],
+    "recycling_methods": [
+      "Donate wearable clothes.",
+      "Use textile collection or recycling services where available."
+    ],
+    "disposal": "Send unusable textiles to an appropriate textile collection service where available.",
+    "reuse_ideas": [
+      "Turn old clothes into cleaning cloths.",
+      "Reuse fabric for bags, cushions or craft projects."
+    ],
+    "environmental_impact": "Textile reuse and recycling reduce landfill waste and demand for new materials.",
+    "precautions": [
+      "Do not donate wet, mouldy or heavily contaminated clothing."
+    ]
+  },
+  "glass": {
+    "name": "Glass Waste",
+    "description": "Glass bottles and jars can often be recycled into new glass products.",
+    "preparation": [
+      "Empty bottles and jars.",
+      "Rinse off food residue when practical.",
+      "Keep broken glass safely contained and labelled."
+    ],
+    "recycling_methods": [
+      "Use designated glass collection points.",
+      "Send accepted glass containers to glass recycling facilities."
+    ],
+    "disposal": "Follow local rules for glass collection. Do not place loose broken glass in ordinary recycling bins.",
+    "reuse_ideas": [
+      "Reuse suitable jars for storage.",
+      "Reuse bottles for decoration where safe."
+    ],
+    "environmental_impact": "Glass recycling reduces the need for raw materials and can save energy.",
+    "precautions": [
+      "Handle broken glass carefully.",
+      "Not all glass types, such as mirrors and heat-resistant glass, are accepted in bottle recycling."
+    ]
+  },
+  "metal": {
+    "name": "Metal Waste",
+    "description": "Metal waste includes aluminium cans, steel containers and other metal objects.",
+    "preparation": [
+      "Separate metal from other materials.",
+      "Empty containers and remove food residue where practical.",
+      "Keep sharp edges protected."
+    ],
+    "recycling_methods": [
+      "Send accepted metals to authorized scrap dealers or metal recycling facilities.",
+      "Use designated metal collection services."
+    ],
+    "disposal": "Follow local metal recycling and collection rules.",
+    "reuse_ideas": [
+      "Reuse suitable metal containers for storage.",
+      "Repurpose safe metal objects for craft projects."
+    ],
+    "environmental_impact": "Metal recycling reduces mining demand and often saves energy.",
+    "precautions": [
+      "Do not handle unidentified chemical containers.",
+      "Protect yourself from sharp edges."
+    ]
+  },
+  "paper": {
+    "name": "Paper Waste",
+    "description": "Paper waste includes newspapers, office paper and other recyclable paper products.",
+    "preparation": [
+      "Keep paper clean and dry.",
+      "Remove plastic covers and other non-paper materials where possible."
+    ],
+    "recycling_methods": [
+      "Send accepted paper to paper recycling facilities.",
+      "Use designated dry-waste collection."
+    ],
+    "disposal": "Place clean paper in the designated paper recycling collection.",
+    "reuse_ideas": [
+      "Reuse one-sided paper for rough notes.",
+      "Use old newspapers for suitable packing and cleaning tasks."
+    ],
+    "environmental_impact": "Paper recycling reduces demand for virgin wood pulp.",
+    "precautions": [
+      "Avoid mixing wet, greasy or heavily contaminated paper with clean paper recyclables."
+    ]
+  },
+  "plastic": {
+    "name": "Plastic Waste",
+    "description": "Plastic waste includes bottles, containers, packaging and other plastic products.",
+    "preparation": [
+      "Empty containers.",
+      "Rinse them when practical.",
+      "Separate different plastic types if local rules require it."
+    ],
+    "recycling_methods": [
+      "Use designated plastic collection services.",
+      "Send accepted plastic to authorized recycling facilities."
+    ],
+    "disposal": "Follow local plastic waste segregation and collection rules. Not all plastics are recyclable.",
+    "reuse_ideas": [
+      "Reuse suitable containers when safe and intended for reuse.",
+      "Choose refillable alternatives where practical."
+    ],
+    "environmental_impact": "Plastic pollution can harm wildlife and persist in the environment.",
+    "precautions": [
+      "Do not burn plastic.",
+      "Do not reuse chemical containers for food or drinking water."
+    ]
+  },
+  "shoes": {
+    "name": "Footwear Waste",
+    "description": "Footwear waste includes old shoes, sandals and other footwear.",
+    "preparation": [
+      "Clean and dry wearable footwear.",
+      "Separate reusable footwear from damaged items."
+    ],
+    "recycling_methods": [
+      "Donate wearable footwear.",
+      "Use specialist footwear recycling programmes where available."
+    ],
+    "disposal": "Follow local textile or footwear collection guidance for unusable shoes.",
+    "reuse_ideas": [
+      "Repair shoes when practical.",
+      "Donate footwear that is still safe and wearable."
+    ],
+    "environmental_impact": "Repair, reuse and recycling can reduce footwear waste in landfills.",
+    "precautions": [
+      "Do not donate footwear that is unsafe, badly damaged or contaminated."
+    ]
+  },
+  "trash": {
+    "name": "General Waste",
+    "description": "General waste includes materials that cannot currently be reused or recycled through available local services.",
+    "preparation": [
+      "Check whether the material can be separated into recyclable categories.",
+      "Keep hazardous waste separate."
+    ],
+    "recycling_methods": [
+      "Identify recyclable components before disposal.",
+      "Follow local municipal waste management guidance."
+    ],
+    "disposal": "Place remaining non-recyclable waste in the designated general waste collection.",
+    "reuse_ideas": [
+      "Consider repair or repurposing before disposal when safe."
+    ],
+    "environmental_impact": "Reducing general waste helps lower landfill use and pollution.",
+    "precautions": [
+      "Never mix batteries, chemicals, medical waste or other hazardous materials with ordinary household waste."
+    ]
+  }
+}

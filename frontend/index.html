@@ -1,0 +1,421 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoSort AI | Smart Waste Management</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<div class="app-layout">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+        <div class="brand">
+            <span class="brand-icon">🌿</span>
+            <div>
+                <h2>EcoSort AI</h2>
+                <small>Smart Waste Management</small>
+            </div>
+        </div>
+
+        <p class="menu-heading">MAIN MENU</p>
+
+        <nav class="sidebar-nav">
+            <button class="nav-item active" data-page="home-page">
+                <span>⌂</span> Home
+            </button>
+
+            <button class="nav-item" data-page="dashboard-page">
+                <span>▦</span> Dashboard
+            </button>
+
+            <button class="nav-item" data-page="detection-page">
+                <span>♻</span> Waste Detection
+            </button>
+
+            <button class="nav-item" data-page="guidance-page">
+                <span>☘</span> Waste Guidance
+            </button>
+
+            <button class="nav-item" data-page="chatbot-page">
+                <span>💬</span> AI Chatbot
+            </button>
+        </nav>
+
+        <div class="sidebar-bottom">
+            <div class="sidebar-tip">
+                <span>🌍</span>
+                <h4>Keep our planet clean!</h4>
+                <p>Small actions create a greener future.</p>
+            </div>
+            <small>EcoSort AI © 2026</small>
+        </div>
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <main class="main-content">
+
+        <!-- TOP BAR -->
+        <header class="topbar">
+            <div>
+                <h3 id="page-heading">Home</h3>
+                <p>AI-powered waste classification and management</p>
+            </div>
+            <div class="topbar-status">
+                <span class="status-dot"></span>
+                AI System
+            </div>
+        </header>
+
+        <!-- HOME PAGE -->
+        <section class="app-page active-page" id="home-page">
+
+            <div class="welcome-banner">
+                <div>
+                    <span class="eyebrow">SMARTER WASTE MANAGEMENT</span>
+                    <h1>Welcome to EcoSort AI 🌱</h1>
+                    <p>
+                        Identify waste, understand proper disposal,
+                        and make better decisions for a cleaner environment.
+                    </p>
+                    <button class="primary-button" data-go="detection-page">
+                        Start Waste Detection →
+                    </button>
+                </div>
+                <div class="welcome-illustration">♻️</div>
+            </div>
+
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <span>♻️</span>
+                    <h2>10</h2>
+                    <p>Waste Categories</p>
+                </div>
+                <div class="stat-card">
+                    <span>🎯</span>
+                    <h2>90.92%</h2>
+                    <p>Model Test Accuracy</p>
+                </div>
+                <div class="stat-card">
+                    <span>🤖</span>
+                    <h2>AI</h2>
+                    <p>Smart Classification</p>
+                </div>
+            </div>
+
+            <div class="content-heading">
+                <h2>Explore EcoSort AI</h2>
+                <p>Select a feature to get started.</p>
+            </div>
+
+            <div class="feature-grid">
+                <button class="feature-card" data-go="detection-page">
+                    <span>📸</span>
+                    <h3>Waste Detection</h3>
+                    <p>Upload an image and identify its waste category.</p>
+                    <b>Open Feature →</b>
+                </button>
+
+                <button class="feature-card" data-go="guidance-page">
+                    <span>🌿</span>
+                    <h3>Waste Guidance</h3>
+                    <p>Learn how to prepare and dispose of waste safely.</p>
+                    <b>Open Feature →</b>
+                </button>
+
+                <button class="feature-card" data-go="chatbot-page">
+                    <span>💬</span>
+                    <h3>AI Chatbot</h3>
+                    <p>Ask questions about recycling and waste management.</p>
+                    <b>Chat Now →</b>
+                </button>
+            </div>
+
+            <div class="content-heading">
+                <h2>Supported Waste Categories</h2>
+                <p>Our AI model recognizes these 10 categories.</p>
+            </div>
+
+            <div class="categories-grid">
+                <div class="category-card">🔋 <span>Battery</span></div>
+                <div class="category-card">🍃 <span>Biological</span></div>
+                <div class="category-card">📦 <span>Cardboard</span></div>
+                <div class="category-card">👕 <span>Clothes</span></div>
+                <div class="category-card">🍾 <span>Glass</span></div>
+                <div class="category-card">🥫 <span>Metal</span></div>
+                <div class="category-card">📄 <span>Paper</span></div>
+                <div class="category-card">🧴 <span>Plastic</span></div>
+                <div class="category-card">👟 <span>Shoes</span></div>
+                <div class="category-card">🗑️ <span>Trash</span></div>
+            </div>
+        </section>
+
+        <!-- DASHBOARD PAGE -->
+        <section class="app-page" id="dashboard-page">
+            <div class="content-heading">
+                <h1>Dashboard Overview</h1>
+                <p>Explore the main capabilities of EcoSort AI.</p>
+            </div>
+
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <span>♻️</span>
+                    <h2>10</h2>
+                    <p>Recognized Categories</p>
+                </div>
+                <div class="stat-card">
+                    <span>🎯</span>
+                    <h2>90.92%</h2>
+                    <p>Model Test Accuracy</p>
+                </div>
+                <div class="stat-card">
+                    <span>🤖</span>
+                    <h2>MobileNetV2</h2>
+                    <p>AI Model</p>
+                </div>
+            </div>
+
+            <div class="dashboard-panel">
+                <h2>How EcoSort AI Works</h2>
+                <div class="steps-grid">
+                    <div class="step-card">
+                        <span>01</span>
+                        <h3>Upload Image</h3>
+                        <p>Select a clear image of the waste item.</p>
+                    </div>
+                    <div class="step-card">
+                        <span>02</span>
+                        <h3>AI Detection</h3>
+                        <p>The model analyses and predicts the category.</p>
+                    </div>
+                    <div class="step-card">
+                        <span>03</span>
+                        <h3>Get Guidance</h3>
+                        <p>View the result and disposal information.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- WASTE DETECTION PAGE -->
+        <section class="app-page" id="detection-page">
+
+            <div class="content-heading">
+                <h1>Waste Detection</h1>
+                <p>Upload a waste image and let our AI model identify it.</p>
+            </div>
+
+            <div class="detection-layout">
+
+                <div class="panel upload-panel">
+                    <h2>Upload Waste Image</h2>
+                    <p>Select or drag an image from your device.</p>
+
+                    <div class="upload-area" id="upload-area">
+                        <div class="upload-icon">📸</div>
+                        <h3>Drop your image here</h3>
+                        <p>JPG, PNG or WEBP</p>
+
+                        <button type="button" class="browse-button"
+                                id="browse-button">
+                            Browse Image
+                        </button>
+
+                        <input type="file" id="file-input"
+                               accept="image/jpeg,image/png,image/webp" hidden>
+                    </div>
+
+                    <div class="preview-container" id="preview-container" hidden>
+                        <img src="" alt="Selected waste" id="image-preview">
+                        <p id="file-name"></p>
+                        <button type="button" id="remove-image">
+                            Remove Image ✕
+                        </button>
+                    </div>
+
+                    <button type="button" class="primary-button classify-button"
+                            id="classify-button" disabled>
+                        ✨ Analyse Waste
+                    </button>
+
+                    <div class="loading-state" id="loading-state" hidden>
+                        <div class="loader"></div>
+                        <p>AI is analysing your image...</p>
+                    </div>
+
+                    <div class="error-message" id="error-message"
+                         role="alert" hidden></div>
+                </div>
+
+                <div class="panel result-panel">
+                    <h2>Detection Result</h2>
+                    <p>Your AI prediction will appear here.</p>
+
+                    <div class="result-section" id="result-section"
+                         aria-live="polite" hidden>
+
+                        <div class="result-top">
+                            <div class="result-icon" id="result-icon">♻️</div>
+                            <div>
+                                <p>Predicted Waste Category</p>
+                                <h3 id="result-category">Waste Category</h3>
+                            </div>
+                        </div>
+
+                        <p>
+                            Confidence:
+                            <strong id="result-confidence">0%</strong>
+                        </p>
+
+                        <div class="confidence-track">
+                            <div class="confidence-bar"
+                                 id="result-confidence-bar"></div>
+                        </div>
+
+                        <p id="result-description"></p>
+                        <p id="result-filename"></p>
+
+                        <button type="button" id="try-again-button">
+                            Classify Another Image
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- WASTE GUIDANCE PAGE -->
+        <section class="app-page" id="guidance-page">
+            <div class="content-heading">
+                <h1>Waste Guidance</h1>
+                <p>Understand how to handle and dispose of different waste.</p>
+            </div>
+
+            <div class="guidance-layout">
+                <div class="panel">
+                    <h2>AI Waste Guidance</h2>
+                    <p>
+                        First classify an image in Waste Detection.
+                        Its guidance can then be viewed here.
+                    </p>
+                    <div id="guidance-section" hidden>
+                        <h3 id="guidance-category"></h3>
+                        <div id="guidance-content"></div>
+                    </div>
+                    <p id="guidance-error" hidden></p>
+                </div>
+
+                <div class="panel guidance-side-panel">
+                    <span class="guidance-icon">🌱</span>
+                    <h2>Waste Segregation Tips</h2>
+                    <ul>
+                        <li>Keep wet and dry waste separate.</li>
+                        <li>Clean recyclable containers where practical.</li>
+                        <li>Keep batteries and hazardous waste separate.</li>
+                        <li>Reuse or donate items whenever possible.</li>
+                        <li>Follow your local waste collection rules.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEPARATE CHATBOT PAGE -->
+        <section class="app-page" id="chatbot-page">
+            <div class="content-heading">
+                <h1>EcoSort AI Assistant</h1>
+                <p>Your personal assistant for waste management and recycling.</p>
+            </div>
+
+            <div class="chat-layout">
+
+                <div class="panel chat-panel">
+                    <div class="assistant-header">
+                        <div class="assistant-avatar">🌿</div>
+                        <div>
+                            <h3>EcoSort Assistant</h3>
+                            <span><i class="status-dot"></i> Online</span>
+                        </div>
+                    </div>
+
+                    <div class="chat-messages" id="chat-messages"
+                         aria-live="polite">
+                        <div class="chat-message bot-message">
+                            <div class="message-avatar">🌿</div>
+                            <div class="message-content">
+                                Hello! I'm your EcoSort AI Assistant.
+                                Ask me about recycling, waste segregation,
+                                composting or safe disposal.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="suggested-questions">
+                        <p>Suggested questions</p>
+                        <button type="button" class="suggestion-button">
+                            How should I dispose of a battery?
+                        </button>
+                        <button type="button" class="suggestion-button">
+                            How can I recycle plastic?
+                        </button>
+                        <button type="button" class="suggestion-button">
+                            What is biological waste?
+                        </button>
+                    </div>
+
+                    <form class="chat-input-area" id="chat-form">
+                        <input type="text" id="chat-input"
+                               placeholder="Ask your waste management question..."
+                               autocomplete="off" required>
+                        <button type="submit" id="chat-send-button">
+                            Send ➤
+                        </button>
+                    </form>
+
+                    <p class="chat-error" id="chat-error"
+                       role="alert" hidden></p>
+                </div>
+
+                <aside class="panel chat-info-panel">
+                    <div class="voice-card">
+                        <span class="voice-icon">🎙️</span>
+                        <h2>Voice Assistant</h2>
+                        <p>
+                            Voice interaction can be added to help users
+                            communicate with EcoSort AI.
+                        </p>
+                        <button type="button" id="voice-button"
+                                class="secondary-button">
+                            Start Voice Assistant
+                        </button>
+                        <p id="voice-status" aria-live="polite"></p>
+                    </div>
+
+                    <div cla
+                    ss="capabilities-card">
+                        <h3>AI Capabilities</h3>
+                        <ul>
+                            <li>♻️ Waste segregation guidance</li>
+                            <li>🌿 Recycling information</li>
+                            <li>🗑️ Disposal recommendations</li>
+                            <li>🔋 Hazardous waste precautions</li>
+                            <li>💬 AI-powered question answering</li>
+                        </ul>
+                    </div>
+                </aside>
+
+            </div>
+        </section>
+
+        <footer class="app-footer">
+            EcoSort AI · Smart Waste Management
+        </footer>
+
+    </main>
+</div>
+
+</body>
+</html>
